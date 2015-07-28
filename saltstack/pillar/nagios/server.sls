@@ -1,4 +1,7 @@
 nagios:
+  server:
+    cfg_dir: 
+      - /etc/nagios/objects.salt
   lookup:
     nagios:
       service: nagios
@@ -12,10 +15,10 @@ nagios:
       precached_object_file: /var/log/nagios/objects.precache
       status_file: /var/log/nagios/status.dat
       command_file: /var/spool/nagios/cmd/nagios.cmd
-      lock_file: /var/log/nagios/nagios.lock
+      lock_file: /var/run/nagios.pid
       temp_file: /var/log/nagios/nagios.tmp
       log_archive_path: /var/log/nagios/archives
-      check_result_path: /var/log/nagios/spool/checkresults
+      check_result_path: /var/spool/nagios/checkresults
       state_retention_file: /var/log/nagios/retention.dat
       p1_file: /usr/sbin/p1.pl
       debug_file: /var/log/nagios/nagios.debug
