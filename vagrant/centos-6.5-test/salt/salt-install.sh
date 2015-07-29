@@ -1,6 +1,6 @@
 cd
-wget https://anorien.csc.warwick.ac.uk/mirrors/epel/6/i386/epel-release-6-8.noarch.rpm
-sudo rpm -Uvh epel-release-6-8.noarch.rpm
+#wget https://anorien.csc.warwick.ac.uk/mirrors/epel/6/i386/epel-release-6-8.noarch.rpm
+#sudo rpm -Uvh epel-release-6-8.noarch.rpm
 
 cd /etc/yum.repod.d
 sudo wget --no-check-certificate https://copr.fedoraproject.org/coprs/saltstack/zeromq4/repo/epel-6/saltstack-zeromq4-epel-6.repo

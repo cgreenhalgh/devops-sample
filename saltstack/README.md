@@ -18,6 +18,8 @@ sudo rpm -Uvh epel-release-6-8.noarch.rpm
 cd /etc/yum.repod.d
 sudo wget --no-check-certificate https://copr.fedoraproject.org/coprs/saltstack/zeromq4/repo/epel-6/saltstack-zeromq4-epel-6.repo
 
+rpm -Uvh http://rpms.famillecollet.com/enterprise/remi-release-6.rpm
+
 yum install git
 ```
 and one or both of master or minion
@@ -40,6 +42,7 @@ file_roots:
   base:
     - /srv/devops-sample/saltstack/salt
     - /srv/formulas/apache-formula
+    - /srv/formulas/nagios-formula
 ```
 Start salt with:
 ```
