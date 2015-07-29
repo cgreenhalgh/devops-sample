@@ -32,6 +32,7 @@ git clone https://github.com/cgreenhalgh/devops-sample.git
 mkdir /srv/formulas
 cd /srv/formulas
 git clone https://github.com/cgreenhalgh/apache-formula.git
+git clone https://github.com/cgreenhalgh/nagios-formula.git
 ```
 Now set up the salt configuration, `/etc/salt/master`:
 ```
