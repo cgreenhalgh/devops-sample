@@ -17,7 +17,7 @@ nagios:
       lock_file: /var/run/nagios.pid
       temp_file: /var/log/nagios/nagios.tmp
       log_archive_path: /var/log/nagios/archives
-      check_result_path: /var/spool/nagios/checkresults
+      check_result_path: /var/log/nagios/spool/checkresults
       state_retention_file: /var/log/nagios/retention.dat
       p1_file: /usr/sbin/p1.pl
       debug_file: /var/log/nagios/nagios.debug

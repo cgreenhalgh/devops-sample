@@ -4,7 +4,7 @@ base:
     {% if grains['os'] == 'CentOS' %}
     - nagios.centos_server
     {% endif %}
-    - nagios.objects
+    - nagios.check_mk
     - nagios.plugins
     - nagios.user
   '*':
