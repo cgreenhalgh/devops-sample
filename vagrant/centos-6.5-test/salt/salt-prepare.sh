@@ -6,3 +6,4 @@ cd /srv
 cd /srv/formulas
 [ -d apache-formula ] || git clone https://github.com/cgreenhalgh/apache-formula.git
 [ -d nagios-formula ] || git clone https://github.com/cgreenhalgh/nagios-formula.git
+[ -d mysql-formula ] || git clone https://github.com/cgreenhalgh/mysql-formula.git
