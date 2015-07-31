@@ -1,0 +1,5 @@
+base:
+  'dockertest':
+    - apache
+    - mysql
+
