@@ -3,3 +3,4 @@ base:
     - apache
     - mysql
     - docker
+    - wordpress.docker
